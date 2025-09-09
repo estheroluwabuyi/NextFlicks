@@ -80,4 +80,4 @@ app/
 
 ## Author
 
-**Esther Okiki** – [Your GitHub Profile](https://github.com/estheroluwabuyi)
+**Esther Oluwabuyi** – [My GitHub Profile](https://github.com/estheroluwabuyi)
