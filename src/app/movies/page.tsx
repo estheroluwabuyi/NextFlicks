@@ -1,10 +1,12 @@
 import { movies, Movie } from "@/app/data/movies";
 import Image from "next/image";
 import Link from "next/link";
+import BackButton from "@/app/_components/BackBtn";
 
 export default function MoviePage() {
   return (
     <div className="p-6">
+      <BackButton/>
       <h2 className="text-3xl font-semibold mb-4">Movies List</h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {movies.map((movie: Movie) => (
