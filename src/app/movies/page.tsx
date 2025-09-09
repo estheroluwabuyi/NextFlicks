@@ -8,7 +8,10 @@ export default function MoviePage() {
       <h2 className="text-3xl font-semibold mb-4">Movies List</h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {movies.map((movie: Movie) => (
-          <li key={movie.id} className="bg-gray-800 p-4 rounded-lg">
+      <Link href={`/movies/${movie.id}`} key={movie.id}
+              className="text-blue-400 hover:text-blue-600"
+            >
+          <li  className="bg-gray-800 p-4 rounded-lg">
             <Image
               width={200}
               height={200}
@@ -16,15 +19,16 @@ export default function MoviePage() {
               src={movie.poster}
               alt={movie.title}
             />
-            <Link
-              href={`/movies/${movie.id}`}
+            <div
               className="text-blue-400 hover:text-blue-600"
             >
               {movie.title}
-            </Link>
+            </div>
           </li>
+            </Link>
         ))}
       </ul>
+        
     </div>
   );
 }
