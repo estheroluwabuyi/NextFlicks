@@ -1,7 +1,3 @@
-Absolutely! Let’s make a **clear, polished, and portfolio-ready README** for **NextFlicks**. Here’s a solid starting point you can use and tweak:
-
----
-
 # NextFlicks 🎬
 
 NextFlicks is a practice **Next.js** app built to explore **dynamic routing**, TypeScript integration, and basic component rendering. Users can browse a list of movies and view detailed information on each movie.
