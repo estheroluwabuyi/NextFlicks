@@ -14,7 +14,7 @@ NextFlicks is a practice **Next.js** app built to explore **dynamic routing**, T
 
 ---
 
-## Screenshots
+## Screenshot
 
 ![NextFlicks Screenshot](public/screenshots/nextflicks.png)
 
