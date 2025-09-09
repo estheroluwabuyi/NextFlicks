@@ -59,7 +59,7 @@ export default function MovieDetails({ params }: MovieParams) {
             <p className="text-xl to-gray-300 ">Rating:</p>
             <div className="flex items-center text-yellow-400 text-center">
               <FaStar className="mr-1" />
-              <span className="text-2xl font-bold ">{movie?.rating}</span> / 5
+              <span className="text-2xl font-bold ">{movie?.rating}</span> / 10
             </div>
           </div>
 
