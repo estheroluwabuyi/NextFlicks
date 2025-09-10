@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "NextFlicks 🎬",
+    default: "NextFlicks",
     template: "%s | NextFlicks",
   },
   description: "A Next.js practice app showcasing dynamic routing with movies",

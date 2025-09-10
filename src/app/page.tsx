@@ -40,8 +40,8 @@ export default function Home() {
       <h2 className="text-3xl font-semibold text-white">Movies List</h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {movies.map((movie: Movie) => (
-      <Link href="/movies" key={movie.id} >
           <li
+            key={movie.id}
             className="bg-gray-800 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300"
           >
             <Image
@@ -51,10 +51,12 @@ export default function Home() {
               src={movie.poster}
               alt={movie.title}
             />
-            <div className="text-xl font-bold text-blue-400 hover:text-blue-600"
+            <Link
+              href="/movies"
+              className="text-xl font-bold text-blue-400 hover:text-blue-600"
             >
               {movie.title}
-            </div>
+            </Link>
             <p className="text-gray-400 text-sm mt-2">{movie.description}</p>
 
             <div className="flex justify-between items-center mt-4">
@@ -73,7 +75,6 @@ export default function Home() {
               </div>
             </div>
           </li>
-        </Link>
         ))}
       </ul>
     </div>

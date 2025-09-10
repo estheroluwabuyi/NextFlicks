@@ -5,15 +5,12 @@ import BackButton from "@/app/_components/BackBtn";
 
 export default function MoviePage() {
   return (
-    <div className="p-6">
-      <BackButton/>
-      <h2 className="text-3xl font-semibold mb-4">Movies List</h2>
+    <div className="p-6  bg-gray-900">
+      <BackButton />
+      <h2 className="text-3xl font-semibold mb-4 ">Movies List</h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {movies.map((movie: Movie) => (
-      <Link href={`/movies/${movie.id}`} key={movie.id}
-              className="text-blue-400 hover:text-blue-600"
-            >
-          <li  className="bg-gray-800 p-4 rounded-lg">
+          <li key={movie.id} className="bg-gray-800 p-4 rounded-lg">
             <Image
               width={200}
               height={200}
@@ -21,16 +18,15 @@ export default function MoviePage() {
               src={movie.poster}
               alt={movie.title}
             />
-            <div
+            <Link
+              href={`/movies/${movie.id}`}
               className="text-blue-400 hover:text-blue-600"
             >
               {movie.title}
-            </div>
-          </li>
             </Link>
+          </li>
         ))}
       </ul>
-        
     </div>
   );
 }

@@ -17,7 +17,7 @@ export const movies: Movie[] = [
       "Cillian Murphy was outstanding",
       "A bit long but worth it",
       "Extremely boring and hard to sit through.",
-      "After watching the film, I realise my doubt was misplaced and I have grown significantly more respect and appreciation for Nolan's work. Oppenheimer was an amazing film!"
+      "After watching the film, I realise my doubt was misplaced and I have grown significantly more respect and appreciation for Nolan's work. Oppenheimer was an amazing film!",
     ],
     comments: 124,
     rating: 9.0,
@@ -34,7 +34,7 @@ export const movies: Movie[] = [
       "Every moment of this cinematic marvel was nothing short of pure excellence, deserving nothing less than a perfect 10 out of 10 rating!",
       "Great social commentary",
       "Margot Robbie nailed it",
-      "It was awful! I was trying my hardest not to cry during the movie in which I succeeded but that did not in any way change how I felt about the movie. First off the jokes and comedy are not funny at all. They didn’t even make sense."
+      "It was awful! I was trying my hardest not to cry during the movie in which I succeeded but that did not in any way change how I felt about the movie. First off the jokes and comedy are not funny at all. They didn’t even make sense.",
     ],
     rating: 8.1,
     description:
@@ -49,7 +49,7 @@ export const movies: Movie[] = [
       "Epic cinematography",
       "Zendaya finally got more screen time",
       "A true masterpiece",
-      "Now officially in my top 5 films of all time"
+      "Now officially in my top 5 films of all time",
     ],
     rating: 8.7,
     description:
@@ -80,7 +80,7 @@ export const movies: Movie[] = [
       "Hilarious and action-packed",
       "Ryan Reynolds and Hugh Jackman are a perfect duo",
       "A must-watch for comic book fans",
-      "So I watched Deadpool & Wolverine today and all I can say is… WTF did I just watch? 🤦‍♂️"
+      "So I watched Deadpool & Wolverine today and all I can say is… WTF did I just watch? 🤦‍♂️",
     ],
     rating: 8.6,
     description:
@@ -96,11 +96,11 @@ export const movies: Movie[] = [
       "Great prequel to the original",
       "Keeps you on the edge of your seat",
       "Lupita was amazing",
-      "Highly dull monotonous movie 🎞🎥"
+      "Highly dull monotonous movie 🎞🎥",
     ],
     rating: 7.9,
     description:
-      "When New York City comes under attack from an alien invasion, a woman and other survivors try to find a way to safety. They soon learn that they must remain absolutely silent as the mysterious creatures are drawn to the slightest sound.",
+      "A chilling prequel showing the very first day the deadly creatures invaded Earth.",
     poster: "/posters/quiet.jpeg",
   },
   {
@@ -115,7 +115,7 @@ export const movies: Movie[] = [
     ],
     rating: 7.5,
     description:
-      "Haunted by a devastating encounter with a tornado, Kate Cooper gets lured back to the open plains by her friend, Javi, to test a groundbreaking new tracking system. She soon crosses paths with Tyler Owens, a charming but reckless social-media superstar who thrives on posting his storm-chasing adventures.",
+      "A disaster adventure film following storm chasers facing massive tornado outbreaks.",
     poster: "/posters/twisters.jpeg",
   },
   {
@@ -141,7 +141,7 @@ export const movies: Movie[] = [
       "Tom Cruise never disappoints",
       "Action-packed",
       "Incredible stunts",
-      "Most overhyped movie. I loved Fallout and MI3 but this movie has ridiculous plot holes. I am surprised these so called genius writers and director didn't see it."
+      "Most overhyped movie. I loved Fallout and MI3 but this movie has ridiculous plot holes. I am surprised these so called genius writers and director didn't see it.",
     ],
     rating: 8.2,
     description:
