@@ -4,7 +4,7 @@ import BackButton from "@/app/_components/BackBtn";
 import { movies } from "@/app/data/movies";
 import Image from "next/image";
 import React, { useEffect } from "react";
-import { FaBackward, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 interface MovieParams {
   params: Promise<{
@@ -24,7 +24,6 @@ export default function MovieDetails({ params }: MovieParams) {
       document.title = "NextFlicks | Movie Not Found";
     }
 
-    // Clean up by resetting the title when component unmounts
     return () => {
       document.title = "NextFlicks 🎬";
     };
